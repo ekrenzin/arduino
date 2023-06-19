@@ -1,0 +1,16 @@
+{
+  "name": "express_testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "node.js",
+  "scripts": {
+    "test": "curl --insecure https://192.168.0.177:3000",
+    "start": "node node.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "https": "^1.0.0"
+  }
+}
